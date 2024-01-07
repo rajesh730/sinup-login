@@ -1,0 +1,149 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+nav a:active {
+  background-color: #777;
+}
+
+nav .active {
+  background-color: #555;}
+
+  {{!-- //////////----------------////////////////// --}}
+
+      
+      /* Header styles */
+      header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      
+      /* CTA styles */
+      .cta {
+        background-color: #28a745;
+        color: white;
+        text-align: center;
+        padding: 50px;
+        margin-top: 50px;
+      }
+      
+      .cta h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      
+      .cta p {
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      
+      .cta a {
+        display: inline-block;
+        background-color: #fff;
+        color: #28a745;
+        text-decoration: none;
+        font-size: 24px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+      }
+      
+      .cta a:hover {
+        background-color: #28a745;
+        color: white;
+      }
+      
+      /* Footer styles */
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+      
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+
+    {{>navbar}}
+    <header>
+      <h1>Welcome to My Landing Page</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac nulla quis massa volutpat scelerisque. In bibendum lacus at velit maximus mollis. Nullam vulputate sagittis ex, eu sodales lacus. Nam sit amet euismod orci.</p>
+    </header>
+    
+    <div class="cta">
+      <h2>Ready to get started?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac nulla quis massa volutpat scelerisque. In bibendum lacus at velit maximus mollis.</p>
+      <a href="signup">Sign Up Now</a>
+    </div>
+    
+    <footer>
+      <p>&copy; 2023 My Landing Page. All rights reserved.</p>
+    </footer>
+   
+
+  </body>
+</html>

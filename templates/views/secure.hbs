@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Resume</title>
+    <style>
+      
+      nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+nav a:active {
+  background-color: #777;
+}
+
+nav .active {
+  background-color: #555;}
+      /* Reset default browser styles */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #444;
+      }
+      
+      /* Header styles */
+      header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      
+      /* Main content styles */
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 50px;
+      }
+      
+      h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      
+      h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      li {
+        margin-bottom: 10px;
+      }
+      
+      .section {
+        margin-bottom: 30px;
+      }
+      
+      .section:last-child {
+        margin-bottom: 0;
+      }
+      
+      .section h2 {
+        color: #007bff;
+      }
+      
+      .section h3 {
+        color: #28a745;
+      }
+      
+      /* Footer styles */
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+   <nav>
+  <ul>
+    <li><a href="index">Home</a></li>
+    <li><a href="signup">Sign Up</a></li>
+    <li><a href="login">Login</a></li>
+    <li><a href="logout">Logout</a></li>
+    <li><a href="secure">Secure</a></li>
+  </ul>
+</nav>
+    <header>
+      <h1>{{name}}</h1>
+      <p>Web Developer</p>
+    </header>
+    
+    <main>
+      <div class="section">
+        <h2>Summary</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac nulla quis massa volutpat scelerisque. In bibendum lacus at velit maximus mollis. Nullam vulputate sagittis ex, eu sodales lacus. Nam sit amet euismod orci.</p>
+      </div>
+      
+      <div class="section">
+        <h2>Experience</h2>
+        <ul>
+          <li>
+            <h3>Web Developer</h3>
+            <p>ABC Company - January 2020 to Present</p>
+            <ul>
+              <li>Develop and maintain company website</li>
+              <li>Collaborate with design and marketing teams</li>
+              <li>Implement new features and functionality</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Front-End Developer</h3>
+            <p>XYZ Agency - June 2018 to December 2019</p>
+            <ul>
+          <li>Worked on client projects to develop responsive websites</li>
+          <li>Collaborated with design and back-end teams</li>
+          <li>Implemented modern design techniques and web technologies</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>Git</li>
+    </ul>
+  </div>
+  
+  <div class="section">
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p>University of XYZ - September 2014 to June 2018</p>
+      </li>
+    </ul>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2023 John Doe. All rights reserved.</p>
+</footer>
